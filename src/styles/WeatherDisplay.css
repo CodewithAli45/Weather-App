@@ -1,0 +1,40 @@
+.weather-display{
+    font-family: 'Courgette', cursive;
+    width: 500px;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 16px;
+    color: #fff;
+    background-color: rgb(70, 40, 83);
+    box-shadow: 0 8px 8px -4px rgb(51, 84, 95);;
+}
+
+.weather-location {
+   
+    padding: 10px;
+}
+h3{
+    font-family: 'Courgette', cursive;
+    color: #f8b5d4;
+    text-align: center;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+.weather-current {
+    padding: 10px;
+}
+
+span{
+    color: rgb(47, 189, 245);
+}
+.temp {
+    color: rgb(240, 126, 19);
+}
+
+@media (max-width: 500px) {
+    .weather-display{
+      width: 90%;
+      max-width: none;
+    }
+}
